@@ -1,6 +1,6 @@
 {
-  "homepage": "http://edgargasparyan.github.io/MyShop",
-  "name": "myshop",
+  "homepage": "http://edgargasparyan.github.io/Shop-Front",
+  "name": "Shop_Front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

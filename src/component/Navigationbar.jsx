@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import logo from "../assets/ttlogo.png";
 import { Nav, Navbar } from "react-bootstrap";
 import { useState } from "react";
 
