@@ -1,0 +1,89 @@
+.adminpage {
+  display: flex;
+}
+
+.conatiner {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.addsection {
+  width: 50%;
+  height: 500px;
+  background-color: blue;
+  border-radius: 32px;
+  border: 1px solid black;
+  box-shadow: 10px 5px 13px -3px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.changesection {
+  width: 95%;
+  height: fit-content;
+  /*background-color: red;*/
+  border-radius: 32px;
+  border: 1px solid black;
+  box-shadow: 10px 5px 13px -3px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  margin-bottom: 10px;
+}
+
+.minimalistBlack {
+  border: 3px solid #000000;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.minimalistBlack td,
+.minimalistBlack th {
+  border: 1px solid #000000;
+  padding: 5px 4px;
+}
+
+/*.minimalistBlack tbody {
+  text-align: center;
+}*/
+.minimalistBlack tbody td {
+  font-size: 14px;
+  text-align: center;
+}
+.minimalistBlack tbody:hover {
+  background-color: rgb(76, 82, 82);
+  color: white;
+}
+.minimalistBlack thead {
+  background: #cfcfcf;
+  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #dbdbdb 0%,
+    #d3d3d3 66%,
+    #cfcfcf 100%
+  );
+  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+  border-bottom: 3px solid #000000;
+}
+.minimalistBlack thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+
+
+.product_inputs{
+	border: none;
+}

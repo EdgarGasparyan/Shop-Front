@@ -1,0 +1,25 @@
+/* Nabvar */
+.navbar-nav a{
+	font-size: 18px;
+}
+#basic-addon2{
+	width: 45px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.text-pink{
+	color: rgb(203,0,107,255) !important
+}
+.footer{
+	bottom: 0;
+}
+.wrapper{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
